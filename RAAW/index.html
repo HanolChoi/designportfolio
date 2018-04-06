@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 ">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://code.jquery.com/jquery-1.12.1.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <script src="js/mobile.js"></script>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>RAAW(Review About Around the World</title>
+</head>
+<body>
+    <div id="wrap">
+        <header>
+
+            <div id="blackbg"></div>
+
+            <nav id="gnb">
+                <ul>
+                    <li><a href="#"><i class="fas fa-user-circle"></i>&nbsp;&nbsp;나의 프로필</a></li>
+                    <li><a href="#">&nbsp;<i class="fas fa-angle-down"></i>&nbsp;&nbsp;여행정보</a>
+                        <ul class="depth2">
+                            <li><a href="#">나라별</a></li>
+                            <li><a href="#">테마별</a></li>
+                            <li><a href="#">해외여행 안전정보</a></li>
+                        </ul>
+                    </li>
+
+                    <li><a href="#">&nbsp;<i class="fas fa-angle-down"></i>&nbsp;&nbsp;후기</a>
+                        <ul class="depth2">
+                            <li><a href="#">나라별</a></li>
+                            <li><a href="#">테마별</a></li>
+                            <li><a href="#">인기 TOP 10</a></li>
+                            <li><a href="#">추천도시</a></li>
+                            <li><a href="#">커뮤니티</a></li>
+                        </ul>
+                    </li>
+
+                    <li><a href="#">&nbsp;<p class="circle">●</p>&nbsp;&nbsp;&nbsp;호텔검색</a></li>
+                    <li><a href="#">&nbsp;<p class="circle">●</p>&nbsp;&nbsp;&nbsp;항공권 검색</a></li>
+
+                    <li><a href="#">&nbsp;<i class="fas fa-angle-down"></i>&nbsp;&nbsp;알림</a>
+                        <ul class="depth2">
+                            <li><a href="#">공지사항</a></li>
+                            <li><a href="#">이벤트</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+
+            <div id="headerIn">
+                <!-- 오픈 메뉴 버튼 -->
+                <div class="navi">
+                    <a href="#"><i class="fas fa-bars" style="color:white"></i></a>
+                </div>
+
+                <!-- 로고 -->
+                <h1 class="logo"><a href="index.html"><img src="images/RAAW_logo.png" alt="로고"></a></h1>
+
+                <!-- 서치 -->
+                <div class="search">
+                    <a href="#"><i class="fas fa-search" style="color:white"></i></a>
+                </div>
+            </div>
+
+            <div id="searchBar">
+                <input type="search" name="sch" id="sch" placeholder="검색하기">
+            </div> 
+        </header>
+
+        <main>
+            <div id="mainVisual">
+                <a href="#"><img src="images/worldmap.png" alt="세계지도"></a>
+            </div>
+
+            <div class="l_search">여행지 검색하기</div>
+            <div id="find">
+                <ul>
+                    <select id="b">
+                        <option>대분류</option>
+                        <option>아메리카</option>
+                        <option>아시아</option>
+                        <option>아프리카</option>
+                        <option>오세아니아</option>
+                        <option>유럽</option>
+                    </select>
+
+                    <select id="m">
+                        <option>중분류</option>
+                    </select>
+
+                    <select id="s">
+                        <option>소분류</option>
+                    </select>
+                </ul>
+                <input type="checkbox" name="random"><p>랜덤으로 찾아주세요.</p>
+                <div class="find_box"><a href="#">검색</a></div>
+            </div>
+
+            <div id="line1"></div>
+
+            <!-- 여행사 광고 -->
+            <div id="gall1">
+                <ul>
+                    <li><a href="#">
+                    <img src="images/swiss.png" alt="스위스">
+                    <p class="conts">
+                    <span class="tit">스위스 (인터라켄 / 취리히 / 루체른) 7일</span>
+                    <span class="exp">도시 곳곳이 동화 속 처럼 아름다운 스위스로 지금 떠나보세요.</span>
+                    </p>
+                    </a></li>
+
+                    <li><a href="#">
+                    <img src="images/italy.png" alt="이탈리아">
+                    <p class="conts">
+                    <span class="tit">이탈리아 (로마 / 바티칸시티) 3박 4일</span>
+                    <span class="exp">바쁜 직장인을 위한 로마 3박 4일 알찬 투어!</span>
+                    </p>
+                    </a></li>
+
+                    <li><a href="#">
+                    <img src="images/london.png" alt="런던">
+                    <p class="conts">
+                    <span class="tit">영국 (잉글랜드 / 스코틀랜드 / 아일랜드 / 웨일스) 7일</span>
+                    <span class="exp">7일간의 영국과 아일랜드 정통일주를 체험해보세요.</span>
+                    </p>
+                    </a></li>
+                </ul>
+            </div>
+
+            <div class="thismonth">이달의 여행지</div>
+            <div id="choice">
+                <select class="selbox" onchange="setSelectText('searchSubCate', this)">
+                    <option value="show1">리뷰순</option>
+                    <option value="show2">검색순</option>
+                    <option value="show3">추천순</option>
+                    <option value="show4">댓글순</option>
+                </select>
+
+                <div class="showpic">
+                    <div id="show1" class="mm">
+                        <a href="#"><img src="images/croatia.png" alt="크로아티아"></a>
+                        <p class="choice_text1">이번 달 가장 많은 리뷰를 차지한 요즘 가장 핫한<br>여행지,아드리아해의 숨은 보석 크로아티아! 가족,<br>친구, 연인과 크로아티아로 떠나보는 건 어떨까요?</p>
+                        <p class="choice_text1-1"><a href="#">크로아티아 정보 알아보기 ></a></p>
+                    </div>
+
+                    <div id="show2" class="mm">
+                        <a href="#"><img src="images/laos.png" alt="라오스"></a>
+                        <p class="choice_text2">저렴한 물가는 기본, 색다른 자연에서 즐기는<br>다양한 액티비티와 풍부한 먹거리로 우리나라뿐만<br>아니라 전세계적으로 유명한 배낭지가 된 라오스가<br>이달의 검색순 1위입니다!</p>
+                        <p class="choice_text2-1"><a href="#">라오스 정보 알아보기 ></a></p>
+                    </div>
+
+                    <div id="show3" class="mm">
+                        <a href="#"><img src="images/hawaii.png" alt="하와이"></a>
+                        <p class="choice_text3">전세계인에게 꾸준히 사랑받는 여행지 하와이!<br>천혜의 자연환경에서 휴양과 관광을 동시에<br>즐겨보세요.</p>
+                        <p class="choice_text2-1"><a href="#">하와이 정보 알아보기 ></a></p>
+                    </div>
+
+                    <div id="show4" class="mm">
+                        <a href="#"><img src="images/hokkaido.png" alt="홋카이도"></a>
+                        <p class="choice_text4">눈의 도시 홋카이도에서 눈의 축제부터 온천까지<br>겨울여행만의묘미를 느껴보세요.</p>
+                        <p class="choice_text2-1"><a href="#">홋카이도 정보 알아보기 ></a></p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="review">후기<p><a href="#">더보기 ></a></p></div>
+
+            <div id="sumImg">
+                <ul class="sum1">
+                    <a href="#"><img src="images/towerbridge.png" alt="타워브릿지"></a>
+                    <p class="exp_1">
+                        <span class="title">타워브릿지 야경 감상하기</span>
+                        <span class="sum_exp">영국, 런던</span></p>
+                    <p class="btn"><span id="clickme1">♥ 0</span></p>
+                    <p class="cmmt1"><i class="fas fa-comment-alt"></i></p>
+                    <p class="cmmt_num1">0</p>
+                    <a href="#" class="share"><i class="fas fa-share-alt"></i></a>
+                </ul>
+
+                <ul class="sum2">
+                    <li>
+                        <a href="#"><img src="images/beijing.png" alt="베이징"></a>
+                        <p class="exp_2">
+                            <span class="title">[중국]북경 자금성 관광</span>
+                            <span class="sum_exp">중국, 베이징</span></p>
+                        <p class="btn"><span id="clickme2">♥ 0</span></p>
+                        <p class="cmmt2"><i class="fas fa-comment-alt"></i></p>
+                        <p class="cmmt_num2">0</p>
+                        <a href="#" class="share"><i class="fas fa-share-alt"></i></a>
+                    </li>
+                </ul>
+
+                <ul class="sum3">
+                    <li>
+                        <a href="#"><img src="images/morocco.png" alt="모로코"></a>
+                        <p class="exp_3">
+                            <span class="title">[모로코}사막투어 추천</span>
+                            <span class="sum_exp">모로코, 알리네</span></p>
+                        <p class="btn"><span id="clickme3">♥ 0</span></p>
+                        <p class="cmmt3"><i class="fas fa-comment-alt"></i></p>
+                        <p class="cmmt_num3">0</p>
+                        <a href="#" class="share"><i class="fas fa-share-alt"></i></a>
+                    </li>
+                </ul>
+
+                <ul class="sum4">
+                    <li>
+                        <a href="#"><img src="images/vietnam.png" alt="베트남"></a>
+                        <p class="exp_4">
+                            <span class="title">가족 여행 다녀왔어요~</span>
+                            <span class="sum_exp">베트남, 다낭</span></p>
+                        <p class="btn"><span id="clickme4">♥ 0</span></p>
+                        <p class="cmmt4"><i class="fas fa-comment-alt"></i></p>
+                        <p class="cmmt_num4">0</p>
+                        <a href="#" class="share"><i class="fas fa-share-alt"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </main>
+
+        <footer>
+            <div class="flogo">
+                <a href="#"><img src="images/RAAW_flogo.png" alt="푸터로고"></a>
+            </div>
+
+            <nav id="fnav">
+                <ul>
+                    <li><a href="#">정보</a>
+                    <ul class="fdepth2">
+                        <li>
+                            <p>RAAW(Review About Around the World)<br><br>책임자: 최한올<br>연락처: 010-9238-1328<br><br>ⓒ All Rights Reserved.</p>
+                        </li>
+                    </ul>
+                    </li>
+                </ul>
+            </nav>
+        </footer>
+
+    </div>
+</body>
+<script>
+$(".search>a").click(function(){
+    $("#searchBar").slideToggle("500");
+});
+
+$(".navi>a").click(function(){
+    var poi = $("#gnb").css("display");
+    if(poi == "none"){
+        $("#gnb").show(100).animate({left:"0"});
+        $("#blackbg").fadeIn();
+    }else if(poi == "block"){
+        $("#gnb").animate({left:"-100%"});
+        $("#gnb").fadeOut(200);
+        $(".depth2").slideUp();
+    }
+    return false;
+});
+
+$("#blackbg").click(function(){
+    $("#gnb").animate({left:"-100%"});
+    $("#blackbg").fadeOut();
+});
+
+$("#gnb>ul>li>a").click(function(){
+    var dis = $(this).siblings(".depth2");
+    var two = dis.css("display");
+    if(two == "none"){
+        $(".depth2").slideUp();
+        dis.slideDown(); // dis -> display:block;
+    }else if(two == "block"){
+        dis.slideUp();
+    }
+    return false;
+});
+
+$(".selbox").change(function(){
+    $(".mm").hide(); // 현재 선택한 옵션 메뉴를 제외하고 다른 나머지 메뉴는 사라짐
+    $("#"+$(this).val()).show(); // 선택한 옵션 메뉴에 관련된 value의 값과 일치하는 id명을 가지고 있는 메뉴만 나타냄
+});
+
+/* 좋아요 버튼 */
+var count = 0;
+$("#clickme1").click(function(){
+    count += 1;
+    $("#clickme1").html("♥"+count);
+    $("#clickme1").css("color", "red");
+    return false;
+});
+
+var count2 = 0;
+$("#clickme2").click(function(){
+    count2 += 1;
+    $("#clickme2").html("♥"+count2);
+    $("#clickme2").css("color", "red");
+    return false;
+});
+
+var count3 = 0;
+$("#clickme3").click(function(){
+    count3 += 1;
+    $("#clickme3").html("♥"+count3);
+    $("#clickme3").css("color", "red");
+    return false;
+});
+
+var count4 = 0;
+$("#clickme4").click(function(){
+    count4 += 1;
+    $("#clickme4").html("♥"+count4);
+    $("#clickme4").css("color", "red");
+    return false;
+});
+
+var count5 = 0;
+$(".cmmt1, .cmmt_num1").click(function(){
+    count5 += 1;
+    $(".cmmt_num1").html(""+count5);
+    $(".cmmt1, .cmmt_num1").css("color", "#d5d717");
+    return false;
+});
+
+var count6 = 0;
+$(".cmmt2, .cmmt_num2").click(function(){
+    count6 += 1;
+    $(".cmmt_num2").html(""+count6);
+    $(".cmmt2, .cmmt_num2").css("color", "#d5d717");
+    return false;
+});
+
+var count7 = 0;
+$(".cmmt3, .cmmt_num3").click(function(){
+    count7 += 1;
+    $(".cmmt_num3").html(""+count7);
+    $(".cmmt3, .cmmt_num3").css("color", "#d5d717");
+    return false;
+});
+
+var count8 = 0;
+$(".cmmt4, .cmmt_num4").click(function(){
+    count8 += 1;
+    $(".cmmt_num4").html(""+count8);
+    $(".cmmt4, .cmmt_num4").css("color", "#d5d717");
+    return false;
+});
+
+$("#fnav>ul>li>a").click(function(){
+    var dis = $(this).siblings(".fdepth2");
+    var two = dis.css("display");
+
+    if(two == "none"){
+        $(".fdepth2").slideUp();
+        dis.slideDown(); // dis -> display:block;
+    }else if(two == "block"){
+        dis.slideUp();
+    }
+    return false;
+});
+
+$("#gall1 a").click(function(){
+    $(this).find(".conts").slideToggle();
+    return false;
+});
+</script>
+</html>

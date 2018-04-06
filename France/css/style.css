@@ -1,0 +1,1030 @@
+@charset "utf-8";
+
+#wrap{
+    width:100%;
+    font-family: "나눔바른고딕", sans-serif;
+}
+
+#headerIn{
+    position: relative;
+    width:100%;
+    height:50px;
+}
+
+.logo_m{
+    position: absolute;
+    top:9px;
+    left:10px;
+    width:56px;
+    height:32px;
+}
+
+.logo_pc{
+    display:none;
+}
+
+.menu{
+    position: absolute;
+    top:16px;
+    right:10px;
+    display:block;
+}
+
+.search, .language{
+    display:none;
+}
+
+#navi, #footerIn, #f_region, #f_abroad, #navi2{
+    display:none;
+}
+
+/* 메인 CSS */
+#mainVisual{
+    position: relative;
+    width:100%;
+    height:auto;
+}
+
+.mainslider img{
+    width:100%;
+    height:auto;
+}
+
+.howto, .paris, .rydercup{
+    position: absolute;
+    bottom:28px;
+    right:10px;
+    font-family: "나눔손글씨 붓", sans-serif;
+    display:block;
+    font-size: 30px;
+    color:#fff;
+}
+
+.paris{
+    font-size: 24px;
+    display:none; 
+}
+
+#mainVisual .bx-wrapper .bx-pager{
+    bottom:10px;
+}
+
+/* 프랑스 관광청 */
+#atout{
+    position: relative;
+    top:-59px;
+    width:100%;
+    height:172px;
+    justify-content: space-around;
+}
+
+.atout_bg img{
+    width:100%;
+    height:172px;
+} 
+
+.atout_logo img{
+    position: absolute;
+    top:55px;
+    left:30px;
+    width:100px;
+    height:62px;
+}
+
+.france{
+    position: absolute;
+    top:28px;
+    right:39px;
+    text-align: center;
+    font-weight: 600;
+    color:#666;
+}
+
+.rendez{
+    position: absolute;
+    top:49px;
+    right:10px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    color:#666;
+}
+
+.divide{
+    position: absolute;
+    top:70px;
+    right:78px;
+    color:#666;
+}
+
+.france_travel1{
+    position: absolute;
+    top:91px;
+    right:25px;
+    line-height: 20px;
+    text-align: center;
+    font-size: 14px;
+    color:#666;
+}
+
+.france_travel2{
+    display:none;
+}
+
+/* 프랑스의 주요행사 */
+#events{
+    position: relative;
+    top:-59px;
+    width:95%;
+    height:auto;
+    margin: 0 auto;
+}
+
+.events_p, .dont_miss, .map{
+    width:100%;
+}
+
+.events_p p{
+    position: relative;
+    line-height: 44px;
+    font-weight: 600;
+    font-size: 18px;
+    color:#666;
+}
+
+.more{
+    display:none;
+} 
+
+.events_p img, .dont_miss img{
+    position: absolute;
+    top:14px;
+    right:0;
+    width:9px;
+    height:16px;
+}
+
+.nice_carnival, .tour_de_france, .menton{
+    position: relative;
+    top:0;
+    width:100%;
+    height:auto;
+    border:1px solid #ccc;
+}
+
+.nice_carnival, .tour_de_france{
+    margin-bottom: 14px;
+}
+
+.nice_carnival img, .tour_de_france img, .menton img{
+    width:100%;
+    height:auto;
+}
+
+.title{
+    font-size: 16px;
+    padding: 5px 10px 0 10px;
+    color:#666;
+}
+
+.text{
+    font-size: 14px;
+    line-height: 20px;
+    padding: 5px 10px 10px 10px;
+    color:#666;
+}
+
+.date{
+    font-size: 12px;
+    padding: 0 10px 10px 10px;
+    color:#666;
+}
+
+.dont_miss{
+    position: relative;
+}
+
+.dont_miss p{
+    position: relative;
+    line-height: 44px;
+    font-weight: 600;
+    font-size: 18px;
+    color:#666;
+}
+
+.tartiflette img, .photo_spot img, .food_trip img{
+    width:100%;
+    height:auto;
+}
+
+.tartiflette, .photo_spot, .food_trip{
+    position: relative;
+    top:0;
+    width:100%;
+    height:auto;
+    border:1px solid #ccc;
+}
+
+.tartiflette, .photo_spot{
+    margin-bottom: 14px;
+}
+
+/* 여행지 찾기 */
+.map{
+    position: relative;
+    top:0;
+    margin-bottom: 14px;
+}
+
+.map p{
+    line-height: 44px;
+    font-weight: 600;
+    font-size: 18px;
+    color:#666;
+}
+
+.fregion{
+    display:none;
+}
+
+.fmap{
+    position: relative;
+    width:100%;
+    border:1px solid #ccc;
+}
+
+.mtmap img{
+    width:100%;
+}
+
+.pcmap{
+    display:none;
+}
+
+.fmap .touch{
+    position: absolute;
+    left:10px;
+    bottom: -5px;
+    font-size: 14px;
+    font-weight: normal;
+    letter-spacing: -0.5px;
+    color:#999;
+}
+
+.touch2, .see{
+    display:none;
+}
+
+/* 유용한 정보 */
+#info{
+    position: relative;
+    top:-60px;
+    height:100%;
+    width:100%;
+    margin-bottom: -100px;
+    background: #e5e5e5;
+}
+
+.about1{
+    font-family: "210 멋진어느날", sans-serif;
+    font-size: 30px;
+    text-align: center;
+    padding: 14px 0 14px 0;
+    display:flex;
+    justify-content: center;
+    color:#333;
+}
+
+.about1 a{
+    display:block;
+}
+
+.about2{
+    display: none;
+}
+
+.infoimg1 div, .infoimg2 div, .infoimg3 div, .infoimg4 div, .infoimg5 div{
+    padding-top:22px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.infoimg1, .infoimg2, .infoimg3, .infoimg4, .infoimg5{
+    width:100%;
+    height:auto;
+}
+
+.infoimg1 p, .infoimg2 p, .infoimg3 p, .infoimg4 p, .infoimg5 p{
+    line-height: 34px;
+    font-size: 14px;
+    text-align: center;
+    background:#fff;
+    border: 1px solid #ccc;
+    margin: 2px 0 10px 0;
+}
+
+.infoimg1 a, .infoimg2 a, .infoimg3 a, .infoimg4 a, .infoimg5 a{
+    display:block;
+    color:#666;
+}
+
+.infoimg1 img, .infoimg2 img, .infoimg3 img, .infoimg4 img, .infoimg5 img{
+    width:145px;
+    height:155px;
+}
+
+/* Bxslider 구성 설정 */
+.f_slider{
+    position: relative;
+}
+
+#bx-pager1{
+    position: absolute;
+    display:flex;
+    top:0;
+    left:50%;
+    transform: translateX(-50%);
+}
+
+#bx-pager1 a{
+    display:block;
+    width:10px;
+    height:10px;
+    border-radius: 5px;
+    text-indent: -9999px;
+    background: #fff;
+    margin:0 5px;
+}
+
+#bx-pager1 a:hover, #bx-pager1 a:focus{
+    background: #333;
+}
+
+#movebtn{
+    display:none;
+}
+
+@media all and (min-width:768px){
+    #headerIn{
+        position:fixed;
+        width:54px;
+        height:1280px;
+        border-right: 1px solid #ccc;
+        z-index: 99;
+    }
+
+    .logo_m{
+        top:20px;
+        left:4px;
+    }
+
+    .logo_m img{
+        width:46px;
+        height:26px;
+    }
+
+    .menu{
+        top:60px;
+        left:10px;
+        width:30px;
+        height:19px;
+    }
+
+    /* 메인 CSS */
+    #maintop{
+        position: relative;
+        left:54px;
+        width:92%;
+        height:215px;
+    }
+
+    #mainVisual{
+        position: absolute;
+        top:0;
+        left:0;
+        width:66.6%;
+    }
+
+    .mainslider img{
+        height:215px;
+    }
+
+    #mainVisual .bx-wrapper .bx-pager{
+        left:14px;
+        bottom:14px;
+        width:60px;
+    }
+
+    .howto, .paris{
+        bottom:35px;
+        right:14px;
+        display:block;
+        font-size: 36px;
+        text-align: right;
+    }
+    
+    .paris{
+        font-size: 18px;
+        bottom: 14px;
+    }
+    
+    .rydercup{
+        bottom: 79px;
+    }
+
+    /* 프랑스 관광청 */
+    #atout{
+        position: absolute;
+        top:0;
+        right:0; 
+        width:33.4%;
+        height:215px;
+    }
+
+    .atout_bg img{
+        height:215px;
+    }
+
+    .atout_logo img{
+        top:36%;
+        left:35%;
+        width:100px;
+        height:62px;
+    }
+
+    .france{
+        position:relative;
+        top:-195px;
+        left:0;
+        font-weight: normal;
+    }
+    
+    .rendez{
+        position: relative;
+        top:-190px;
+        left:0;
+        font-size: 16px;
+        font-weight: normal;
+    }
+    
+    .divide{
+        display:none;
+    }
+    
+    .france_travel1{
+        display:none;
+    }
+
+    .france_travel2{
+        position: relative;
+        top:-100px;
+        left:0;
+        text-align: center;
+        font-size: 14px;
+        color:#666;
+        display:block;
+    }
+
+    /* 주요 행사 */
+    #events{
+        top:0;
+        left:54px;
+        width:92%;
+        margin: 0;
+    }
+
+    .events_p p, .dont_miss p, .map p{
+        height:69px;
+        font-size: 22px;
+        font-weight: normal;
+        line-height: 69px;
+    }
+
+    .events_p .more, .dont_miss .more{
+        position: absolute;
+        top:0;
+        right:17px;
+        width:40px;
+        font-size: 14px;
+        display:block;
+    }
+
+    .events_p img{
+        top:27px;
+        width:7px;
+        height:12px;
+    }
+
+    .events_i, .dont_miss_i{
+        display:flex;
+    }
+
+    .nice_carnival, .tour_de_france, .menton, .tartiflette, .photo_spot, .food_trip{
+        width:35%;
+        margin-bottom: 0;
+    }
+
+    .dont_miss img{
+        top:28px;
+        width:7px;
+        height:12px;
+    }
+
+    .title{
+        padding: 10px 14px 10px 14px;
+    }
+    
+    .text{
+        padding:0 14px 17px 14px;
+    }
+    
+    .date{
+        padding-bottom:14px;
+    }
+
+    /* 여행지 찾기 */
+    .map{
+        margin-bottom: 20px;
+        height:auto;
+    }
+
+    .region{
+        position: relative;
+    }
+
+    .region>ul{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .fregion{
+        width: 66.5%;
+        height:auto;
+        display:block;
+    }
+
+    .fregion a{
+        position: relative;
+        display:block;
+        width:50%;
+        height:auto;
+    }
+
+    .fregion img{
+        width: 100%;
+        height:auto;
+        display:block;
+        border:1px solid #ccc;
+    }
+
+    .fregion p{
+        position: absolute;
+        top:-12px;
+        left:14px;
+        font-size: 18px;
+        font-weight: 600;
+        color:#fff;
+    }
+    
+    .fmap{
+        position: absolute;
+        top:0;
+        right:0;
+        width:33.2%;
+        height:100%;
+    }
+    
+    .mtmap img{
+        position: absolute;
+        left:18px;
+        width:auto;
+        height:100%;
+    }
+    
+    .fmap .touch{
+        display: none;
+    }
+    
+    .fmap .see{
+        position: absolute;
+        top:-12px;
+        left:14px;
+        font-size: 16px;
+        font-weight: 600;
+        display:block;
+    }
+
+    /* 유용한 정보 */
+    #info{
+        top:0;
+        left:54px;
+        width:92%;
+        height:auto;
+    }
+
+    .about1{
+        display:none;
+    }
+
+    .about2{
+        display:block;
+        font-family: "210 멋진어느날", sans-serif;
+        font-size: 36px;
+        text-align: center;
+        padding: 20px 0 19px 0;
+        color:#333;
+    }
+
+    .infoimg1, .infoimg2, .infoimg3{
+        position: absolute;
+    }
+
+    .infoimg1 div, .infoimg2 div, .infoimg3 div{
+        padding: 28px 0 14px 0;
+    }
+    
+    .infoimg1 img, .infoimg2 img, .infoimg3 img{
+        width:160px;
+        height:171px;
+    }
+
+    .infoimg4, .infoimg5{
+        display:none;
+    }
+}
+
+@media all and (min-width:1200px){
+    #headerIn{
+        width:300px;
+        height:100%;
+    }
+
+    .logo_m, .menu{
+        display:none;
+    }
+
+    .logo_pc{
+        position: relative;
+        top:126px;
+        width:148px;
+        display:block;
+        margin: 0 auto;
+    }
+
+    .search{
+        position: absolute;
+        top:20px;
+        left:20px;
+        display:block;
+    }
+
+    .language{
+        position: absolute;
+        top:60px;
+        left:20px;
+        display:block;
+    }
+
+    input{
+        width:260px;
+        height:22px;
+        display:block;
+        font-size: 16px;
+        color:#999;
+        border:none;
+        letter-spacing: -0.5px;
+    }
+
+    .search:after{
+        content: "";
+        display:block;
+        width:19px;
+        height:19px;
+        background:url("../images/search_icon.png") no-repeat;
+        position: absolute;
+        top:0;
+        right:0;
+        cursor: pointer;
+    }
+
+    .language:after{
+        content: "";
+        display:block;
+        width:24px;
+        height:22px;
+        background:url("../images/translate_icon.png") no-repeat;
+        position: absolute;
+        top:0;
+        right:0;
+        cursor: pointer;
+    }
+
+    #navi{
+        position: relative;
+        top:138px;
+        margin: 0 auto;
+        display:block;
+    }
+
+    #navi a{
+        display:block;
+        font-size: 18px;
+        text-align: center;
+        line-height: 36px;
+        color:#999;
+    }
+
+    /* 메인 영역 */
+    #maintop{
+        left:300px;
+        width:70%;
+        height:100%;
+    }
+
+    #mainVisual{
+        width:66.6%;
+        height:100%;
+    }
+
+    .mainslider img{
+        height:100%;
+    }
+
+    #mainVisual .bx-wrapper .bx-pager{
+        left:20px;
+        bottom:20px;
+        width:60px;
+    }
+
+    .howto, .rydercup{
+        bottom:48px;
+        right:20px;
+        font-size: 60px;
+    }
+    
+    .paris{
+        font-size: 24px;
+        right:20px;
+        bottom: 20px;
+    }
+    
+    .rydercup{
+        bottom: 100px;
+    }
+
+    /* 프랑스 관광청 */
+    #atout{
+        position: relative;
+        left:66.6%;
+        width:33.4%;
+        height:auto;
+    }
+
+    .atout_bg img{
+        width:100%;
+        height:100%;
+        display:block;
+    }
+
+    .atout_logo img{
+        position: absolute;
+        top:38%;
+        width:125px;
+        height:77px;
+    }
+
+    .france{
+        position: absolute;
+        top:16%;
+        right:0;
+        font-size: 24px;
+    }
+    
+    .rendez{
+        position: absolute;
+        top:24%;
+        right:0;
+        font-size: 18px;
+    }
+
+    .france_travel2{
+        position: absolute;
+        top:70%;
+        right:0;
+        font-size: 18px;
+    }
+
+    /* 주요 행사 */
+    #events{
+        position: relative;
+        left:300px;
+        width:70%;
+    }
+
+    .events_p p, .dont_miss p, .map p{
+        height:96px;
+        font-size: 26px;
+        line-height: 96px;
+    }
+
+    .events_p .more, .dont_miss .more{
+        right:18px;
+        font-size: 18px;
+        width:49px;
+    }
+
+    .events_p img, .dont_miss img{
+        top:40px;
+        width:8px;
+        height:14px;
+    }
+
+    .title{
+        font-size: 20px;
+        padding: 20px 20px 14px 20px;
+    }
+    
+    .text{
+        font-size: 16px;
+        padding:0 20px 48px 20px;
+    }
+    
+    .date{
+        font-size: 14px;
+        padding:0 20px 20px 20px;
+    }
+
+    /* 여행지 찾기 */
+    .fregion p{
+        position: absolute;
+        top:-24px;
+        left:14px;
+        font-size: 18px;
+        font-weight: 600;
+        color:#fff;
+    }
+
+    .mtmap{
+        display:none;
+    }
+
+    .pcmap{
+        display:block;
+    }
+
+    .pcmap img{
+        position: absolute;
+        left:5%;
+        width: auto;
+        height:100%;
+    }
+    
+    .fmap .see{
+        display: none;
+    }
+    
+    .fmap .touch2{
+        position: absolute;
+        bottom:-20px;
+        padding: 0 20px 0 20px;
+        letter-spacing: -0.5px;
+        font-size: 14px;
+        color:#999;
+        display:block;
+    }
+
+    /* 유용한 정보 */
+    #info{
+        left:300px;
+        width:70%;
+    }
+
+    .about2{
+        font-size: 40px;
+        padding: 30px 0 30px 0;
+    }
+
+    .infoimg1 div, .infoimg2 div, .infoimg3 div, .infoimg4 div, .infoimg5 div{
+        padding: 38px 0 20px 0;
+    }
+    
+    .infoimg1 img, .infoimg2 img, .infoimg3 img, .infoimg4 img, .infoimg5 img{
+        width:290px;
+        height:294px;
+    }
+
+    #info .bx-wrapper .bx-pager{
+        top:-20px;
+    }
+
+    /* 헤더 푸터 */
+    #footerIn{
+        position: absolute;
+        display:block;
+    }
+
+    .fb a, .tw a, .yt a, .insta a{
+        position: relative;
+        top:306px;
+        left:20px;
+        display:block;
+        width:260px;
+        font-size: 14px;
+        line-height: 30px;
+        text-align: center;
+        color:#999;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        margin-bottom: 10px;
+    }
+
+    .fb img, .tw img, .yt img, .insta img{
+        position: absolute;
+        top:4px;
+        right:10px;
+    }
+
+    #f_region, #f_abroad{
+        position: absolute;
+        top:765px;
+        left:20px;
+        display:block;
+    }
+
+    #f_abroad{
+        top:805px;
+    }
+
+    #f_region select, #f_abroad select{
+        width:260px;
+        height:30px;
+        font-size: 14px;
+        text-align: center;
+        color:#999;
+        border-radius: 5px;
+        border:1px solid #ccc;
+        margin-bottom: 10px;
+        appearance: none;
+        background: url("../images/arrow_down.png") no-repeat 96% 50% / 7px 6px;
+        padding-left: 10px;
+    }
+
+    #f_region select::-ms-expand, #f_abroad select::-ms-expand{
+        display:none;
+    }
+
+    #navi2{
+        position: relative;
+        top:560px;
+        display:block;
+        font-size: 14px;
+    }
+
+    .a1{
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    #navi2 a{
+        display:block;
+        line-height: 25px;
+        text-align: center;
+        color:#999;
+    }
+
+    #movebtn{
+        position: fixed;
+        bottom: 0;
+        left:300px;
+        width:70%;
+        display:block;
+    }
+
+    #movebtn a{
+        position: relative;
+        left:103%;
+        display:block;
+        width:40px;
+        height:40px;
+        font-size: 20px;
+        text-align: center;
+        color:#fff;
+        border-radius: 50%;
+        background:#ccc;
+    }
+
+    .b1{
+        line-height: 35px;
+    }
+
+    .b2{
+        line-height: 45px;
+    }
+
+    #movebtn>ul>li{
+        position: relative;
+        margin: 0 auto;
+        padding-bottom: 10px;
+    }
+}

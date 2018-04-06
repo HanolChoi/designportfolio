@@ -1,0 +1,536 @@
+@charset "utf-8";
+
+#wrap{
+    width:100%;
+    font-family: "함초롬돋움",sans-serif;
+}
+
+header, main, footer{
+    position: relative;
+    width:100%;
+}
+
+#blackbg{
+    position:fixed;
+    width:100%;
+    height: 100%;
+    background: rgba(0,0,0,0.7);
+    z-index:998;
+    display:none;
+}
+
+/* 왼쪽 슬라이드 메뉴 */
+#gnb{
+    position: fixed;
+    left:-100%;
+    width:70%;
+    height:100%;
+    display:none;
+    background:#8dc8e8;
+    z-index: 999;
+}
+
+.fa-user-circle{
+    font-size: 30px;
+}
+
+.fa-angle-down{
+    font-size: 25px;
+}
+
+#gnb>ul>li>a{
+    position: relative;
+    display: block;
+    font-size: 18px;
+    font-weight: 600;
+    padding:15px 0;
+    color:#fff;
+    padding-left: 30px;
+    border-bottom:1px solid #aee9e8;
+}
+
+#gnb>ul>li>a:after{
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+    right:10px;
+    display:block;
+}
+
+#gnb>ul>li:nth-child(4)>a, #gnb>ul>li:nth-child(5)>a{
+    display:flex;
+}
+
+#gnb p{
+    font-size: 10px;
+    line-height: 20px;
+}
+
+.depth2{
+    display: none;
+}
+
+.depth2 a{
+    display: block;
+    padding:10px;
+    font-size: 16px;
+    color:#fff;
+    border-bottom:1px solid #aee9e8;
+    padding-left:50px;
+}
+
+#headerIn{
+    position: relative;
+    top:0;
+    width:100%;
+    height:80px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #aee9e8;
+}
+
+.navi, .search{
+    position: relative;
+    width:30px;
+    height:30px;
+}
+
+.navi{
+    left:10px;
+}
+
+.search{
+    right:10px;
+}
+
+.navi>a, .search>a{
+    display:block;
+    width:30px;
+    height:30px;
+}
+
+.navi span, .search span{
+    display:block;
+    width:30px;
+    height:30px;
+    margin:0 auto;
+}
+
+.fa-bars, .fa-search{
+    font-size: 30px;
+}
+
+/* 로고 */
+.logo{
+    width:125px;
+    height:40px;
+}
+
+#searchBar{
+    position: relative;
+    width:100%;
+    height:50px;
+    background:#aee9e8;
+    display:none;
+}
+
+#sch{
+    position: relative;
+    top:5px;
+    display:block;
+    width:80%;
+    height:40px;
+    margin:0 auto;
+    border:0;
+    text-indent: 10px;
+    background:#fff;
+    color:#ccc;
+}
+
+/* 메인 CSS */
+#mainVisual{
+    position: relative;
+    width:100%;
+    height:220px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#mainVisual img{
+    position: absolute;
+    left:5%;
+    width:90%;
+    height:100%;
+}
+
+#mainVisual a{
+    display:block;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+/* 여행지 검색하기 */
+.l_search{
+    position: relative;
+    width:100%;
+    height:60px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 60px;
+    align-items: center;
+    color:#fff;
+    padding-left: 3%;
+    background:#aee9e8;
+}
+
+#find{
+    position: relative;
+    width:90%;
+    height:200px;
+    margin: 0 auto;
+}
+
+#find>ul{
+    display:flex;
+    padding-top: 20px;
+    justify-content: space-between;
+}
+
+#find>ul>select{
+    width:30%;
+    height:40px;
+    border:2px solid #aee9e8;
+    border-radius: 10px;
+    appearance: none;
+    background: url("../images/arrow_up.png") no-repeat 90% 50% / 15px 10px;
+}
+
+#find>ul>select::-ms-expand{
+    display:none;
+}
+
+#b, #m, #s{
+    padding-left: 3%;
+}
+
+input{
+    position: absolute;
+    top:40%;
+    left:0;
+}
+
+#find p{
+    position: absolute;
+    top:38%;
+    left:20px;
+    color:#999;
+    font-size: 14px;
+}
+
+.find_box{
+    position: absolute;
+    bottom:0;
+    right:0;
+    width:100px;
+    height:40px;
+    background:#aee9e8;
+    border-radius: 10px;
+}
+
+.find_box a{
+    display:block;
+    color:#fff;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+#line1{
+    position: relative;
+    margin-top: 20px;
+    width:100%;
+    border-bottom: 1px solid #ccc;
+}
+
+/* 여행사 광고 */
+#gall1{
+    width:100%;
+    height:auto;
+    margin-top:20px;
+}
+
+#gall1 li{
+    width:90%;
+    height:auto;
+    margin: 0 auto 20px auto;
+}
+
+#gall1 a{
+    display:block;
+    width:100%;
+    height:auto;
+}
+
+#gall1 img{
+    width:100%;
+    height:auto;
+}
+
+.tit{
+    display:block;
+    font-size: 16px;
+    text-indent: 10px;
+    padding:5px 0;
+}
+
+.exp{
+    display:block;
+    font-size: 14px;
+    text-indent: 20px;
+    padding: 5px 0;
+}
+
+.btn{
+    position: relative;
+    width:80px;
+    margin-left: auto;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn>span{
+    display:block;
+    cursor: pointer;
+}
+
+/* 이달의 여행지 */
+.thismonth{
+    position: relative;
+    width:100%;
+    height:60px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 60px;
+    padding-left: 3%;
+    align-items: center;
+    color:#fff;
+    background:#aee9e8;
+}
+
+#choice, .showpic{
+    width:90%;
+    height:auto;
+    margin: 20px auto 0 auto;
+    margin-bottom: 70px;
+}
+
+.selbox{
+    width:90%;
+    height:40px;
+    font-size: 14px;
+    color:#999;
+    margin: 0 auto;
+    border-radius: 10px;
+    border:2px solid #aee9e8;
+    padding-left: 4%;
+    appearance: none;
+    background: url("../images/arrow_down.png") no-repeat 95% 50% / 15px 10px;
+}
+
+#choice>select::-ms-expand{
+    display:none;
+}
+
+#show1, #show2, #show3, #show4{
+    position: relative;
+    display:none;
+}
+
+.choice_text1, .choice_text2, .choice_text3, .choice_text4{
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    color:#999;
+    margin-top: 10px;
+}
+
+.choice_text1-1 a, .choice_text2-1 a{
+    position: absolute;
+    right:0;
+    display:block;
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 600;
+    color:#999;
+}
+
+.showpic img{
+    position: relative;
+    margin: 0 auto;
+    width:350px;
+    height:150px;
+}
+
+select{
+    display:block;
+    width:100%;
+    height:30px;
+    border:1px solid #ccc;
+}
+
+.showpic img{
+    width:100%;
+    height:auto;
+}
+
+/* 후기 */
+.review{
+    position: relative;
+    width:100%;
+    height:60px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 60px;
+    color:#fff;
+    padding-left: 3%;
+    background:#aee9e8;
+}
+
+.review p>a{
+    position: absolute;
+    top:0;
+    right:6%;
+    font-size: 16px;
+    color:#fff;
+}
+
+#sumImg{
+    position: relative;
+    width:100%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top:20px;
+}
+
+#sumImg img{
+    position: absolute;
+    width:100%;
+    height:200px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    z-index: 99;
+}
+
+.sum1, .sum2, .sum3, .sum4{
+    position: relative;
+    width:45%;
+    height:340px;
+    display:block;
+    border:1px solid #ccc;
+    border-radius: 10px;
+    margin: 0 auto 20px auto;
+}
+
+.title{
+    position: absolute;
+    line-height: 440px;
+    font-size: 14px;
+    text-indent: 10px;
+    color:#999;
+}
+
+.sum_exp{
+    position: absolute;
+    line-height: 480px;
+    font-size: 12px;
+    text-indent: 10px;
+    color:#999;
+}
+
+.sum1 .btn, .sum2 .btn, .sum3 .btn, .sum4 .btn{
+    position: absolute;
+    left:10px;
+    bottom: 10px;
+    color:#999;
+}
+
+.sum1 .cmmt1, .sum2 .cmmt2, .sum3 .cmmt3, .sum4 .cmmt4{
+    position: absolute;
+    left:60px;
+    bottom:10px;
+    color:#999;
+}
+
+.sum1 .cmmt_num1, .sum2 .cmmt_num2, .sum3 .cmmt_num3, .sum4 .cmmt_num4{
+    position: absolute;
+    left:85px;
+    bottom: 10px;
+    color:#999;
+}
+
+.share{
+    position: absolute;
+    right:10px;
+    bottom: 10px;
+    color:#999;
+}
+
+/* 푸터 */
+footer{
+    width:100%;
+    height:auto;
+    background:#ccc;
+}
+
+.flogo{
+    width:100%;
+    height:50px;
+    background:#ccc;
+}
+
+.flogo>a{
+    display:block;
+    position: relative;
+    width:90px;
+    height:29px;
+    margin: 0 auto;
+    top:50%;
+    transform: translateY(-50%);
+}
+
+#fnav>ul>li>a{
+    position: relative;
+    display:block;
+    font-size: 16px;
+    font-weight: 600;
+    color:#fff;
+    padding:5px 0;
+    padding-left: 3%;
+    border-top:1px solid rgba(255,255,255,0.7);
+    border-bottom:1px solid rgba(255,255,255,0.7);
+}
+
+#fnav>ul>li>a:after{
+    position: absolute;
+    top:50%;
+    right:3%;
+    transform: translateY(-50%);
+    appearance: none;
+    content: url("../images/arrow_down2.png");
+    display:block;
+    font-size: 14px;
+}
+
+.fdepth2 li{
+    background: #ccc;
+    padding:10px 0;
+}
+
+.fdepth2 p{
+    font-size: 12px;
+    color:#fff;
+    padding-left: 4%;
+}

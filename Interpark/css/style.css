@@ -1,0 +1,536 @@
+@charset "utf-8";
+
+#wrap{
+    width:100%;
+    font-family: "나눔명조";
+}
+
+header, main, footer{
+    width:100%;
+    height:auto;
+}
+
+#poster{
+    position: relative;
+    top:15px;
+    left:5.6%;
+    width:94%;
+    height:276px;
+    border:1px solid #000;
+    border-right:none;
+    margin-bottom: 75px;
+} 
+
+.poster_sh{
+    position: absolute;
+    top:292px;
+    right:0;
+    width:90%;
+    height:15px;
+    background: #000;
+    z-index:-99;
+}
+
+.title, #poster h3{
+    position: absolute;
+    top:29px;
+    left:5%;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+#poster h3{
+    top:147px;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+#poster img{
+    position: absolute;
+    top:30px;
+    left:245px;
+    width:30px;
+    height:34px;
+}
+
+.p1, .p2{
+    display:none;
+}
+
+.p3{
+    position: relative;
+    top:210px;
+    width:90%;
+    display:flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.p3 a{
+    display:block;
+    font-size: 14px;
+    line-height: 36px;
+}
+
+.p3>li:nth-child(1){
+    width:89px;
+    text-align: center;
+    border:1px solid #000;
+}
+
+.p3>li:nth-child(2){
+    width:72px;
+    text-align: center;
+    border:1px solid #000;
+}
+
+.p3>li:nth-child(3){
+    width:84px;
+    text-align: center;
+    border:1px solid #000;
+}
+
+/* 인터파크 추천 */
+#i_recommend{
+    position: relative;
+    top:0;
+    width:100%;
+    text-align: center;
+}
+
+.i_box>img, .i_box2>img{
+    position: absolute;
+    top:38px;
+    left:6%;
+}
+
+.i_box2>img{
+    top:54.5%;
+}
+
+.i_title, .c_title{
+    font-size: 20px;
+    text-decoration: underline;
+    padding-bottom: 30px;
+}
+
+.i_box, .i_box2{
+    width:94%;
+    margin: 0 auto;
+    border:1px solid #000;
+    margin-bottom: 30px;
+}
+
+.i_title2{
+    padding-top: 4%;
+    font-weight: 600;
+}
+
+.cont1{
+    padding-top:4px;
+    font-size: 14px;
+}
+
+.cont2{
+    display:none;
+}
+
+.i_book img{
+    position: relative;
+    width:139px;
+    height:173px;
+    padding: 4% 0 4% 0;
+}
+
+/* 분야별 추천 - 문학 인문 */
+#categories, #categories2, #categories3, #categories4, #categories5, #categories6, #categories7{
+    position: relative;
+    top:0;
+    width:100%;
+    text-align: center;
+    margin-top: 58px;
+}
+
+.literature, .children, .economy, .language, .overseas, .ebook, .cd{
+    line-height: 30px;
+    border:1px solid #000;
+    border-right:none;
+    border-left:none;
+}
+
+.literature>ul, .children>ul, .economy>ul, .language>ul, .overseas>ul, .ebook>ul, .cd>ul{
+    width:90%;
+    font-weight: 600;
+    display:flex;
+    margin: 0 auto;
+}
+
+.literature>ul>li:nth-child(2), .literature>ul>li:nth-child(3), .children>ul>li:nth-child(2), 
+.children>ul>li:nth-child(3), .economy>ul>li:nth-child(2), .economy>ul>li:nth-child(3), 
+.overseas>ul>li:nth-child(2), .overseas>ul>li:nth-child(3), .ebook>ul>li:nth-child(2), 
+.ebook>ul>li:nth-child(3), .cd>ul>li:nth-child(2), .cd>ul>li:nth-child(3){
+    position: absolute;
+    right:8%;
+    font-weight: normal;
+}
+
+.literature>ul>li:nth-child(3), .children>ul>li:nth-child(3), .economy>ul>li:nth-child(3), 
+.overseas>ul>li:nth-child(3), .ebook>ul>li:nth-child(3), .cd>ul>li:nth-child(3){
+    right:5%;
+}
+
+.literature img, .children img, .economy img, .language img, .overseas img, .ebook img, .cd img{
+    width:8px;
+    height:13px;
+}
+
+.l_c, .c_c, .e_c, .la_c, .o_c, .e_c, .d_c{
+    position: relative;
+    width:100%;
+    text-align: left;
+    padding-top: 30px;
+}
+
+.l_index, .c_index, .e_index, .la_index, .o_index, .e_index, .d_index{
+    position: absolute;
+    left:5%;
+    width:90%;
+}
+
+.cont{
+    font-size: 14px;
+}
+
+.three_kingdoms, .guilty, .japan, .hide, .why, .live, .avoid, .onegreenday, 
+.business_remodeling, .english_word, .highschoolmath, .ssen, .hillbilly, .homodeus, .revenge,
+.nineteen, .finish, .sympathy, .infinite, .jbj, .bts{
+    position: relative;
+    height:250px;
+    padding-bottom:16px;
+}
+
+.under1, .under2, .under3, .under4, .under5, .under6, .under7, .under8, .under9, 
+.under10, .under11, .under12, .under13, .under14, .under15, .under16, .under17, .under18,
+.under19, .under20, .under21{
+    position: absolute;
+    bottom:16px;
+    right:0;
+    width:180px;
+    height:182px;
+    border-radius: 50%;
+    background:#000;
+    z-index:-99;
+}
+
+.three_kingdoms img, .guilty img, .japan img, .hide img, .why img, .live img, .avoid img, 
+.onegreenday img, .business_remodeling img, .english_word img, .highschoolmath img, .ssen img, 
+.hillbilly img, .homodeus img, .revenge img, .nineteen img, .finish img, .sympathy img,
+.infinite img, .jbj img, .bts img{
+    position: absolute;
+    bottom:25px;
+    right:10px;
+    width:182px;
+    height:184px;
+    padding-top:16px;
+} 
+
+/* 유아 / 아동 */
+#categories2{
+    top:744px;
+}
+
+/* 경제 / 교양 / 실용 */
+#categories3{
+    position: relative;
+    top:1488px;
+}
+
+/* 학습 / 어학 */
+#categories4{
+    top:2234px;
+}
+
+/* 외국도서 */
+#categories5{
+    top:2980px;
+}
+
+/* eBook */
+#categories6{
+    top:3725px;
+}
+
+.nineteen>li:nth-child(1), .finish>li:nth-child(1), .sympathy>li:nth-child(1){
+    display:flex;
+}
+
+.blue{
+    color:#00ccff;
+}
+
+/* cd */
+#categories7{
+    top:4470px;
+}
+
+/* 중고도서 */
+#used, #review{
+    position: relative;
+    top:5320px;
+    width:100%;
+    text-align: center;
+}
+
+.u_box{
+    width:94%;
+    margin: 0 auto;
+    border:1px solid #000;
+    margin-bottom: 70px;
+}
+
+.sale{
+    position: absolute;
+    top:66px;
+    left:20%;
+    width:45px;
+    height:45px;
+    border-radius: 50%;
+    background:#ff3333;
+}
+
+.sale p{
+    position: absolute;
+    top:7px;
+    font-size: 12px;
+    font-family: "나눔고딕";
+    font-weight: 600;
+    color:#fff;
+}
+
+.u_book{
+    position: relative;
+    top:15px;
+    left:0;
+    margin-bottom: 25px;
+}
+
+.u_title{
+    position: relative;
+    top:0;
+    font-weight: 600;
+}
+
+.u_cont{
+    display:flex;
+    font-size: 14px;
+    justify-content: center;
+    margin: 3px 0 15px 0;
+}
+
+.u2{
+    text-decoration: line-through;
+}
+
+/* 추천 리뷰 */
+#review{
+    position: relative;
+    width:100%;
+}
+
+.r_box{
+    position: relative;
+    width:94%;
+    height:176px;
+    margin: 0 auto;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+}
+
+.r_title{
+    position: absolute;
+    top:49px;
+    left:4%;
+    font-weight: 600;
+}
+
+.r_cont{
+    position: absolute;
+    top:72px;
+    left:4%;
+    font-size: 14px;
+}
+
+.star{
+    position: absolute;
+    top:111px;
+    left:4%;
+    font-size: 14px;
+    color:#cc0000;
+}
+
+.r_box img{
+    position: absolute;
+    right:4%;
+    width:100px;
+    height:146px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+/* 이슈&스토리 */
+#issue{
+    position: relative;
+    top:5390px;
+    width:94%;
+    margin: 0 auto;
+}
+
+.issue_conts{
+    position: absolute;
+    width:100%;
+    margin: 0 auto;
+}
+
+.i_title{
+    text-align: center;
+}
+
+.newyear, .starwars, .stock{
+    position: relative;
+    width:100%;
+    height:95px;
+    font-weight: 600;
+    margin-bottom: 13px;
+    border:1px solid #000;
+}
+
+.newyear img, .starwars img, .stock img{
+    position: relative;
+    top:15px;
+    left:4%;
+    width:65px;
+    height:65px;
+}
+
+.newyear span, .starwars span, .stock span{
+    position: absolute;
+    left:100px;
+    text-align: center;
+    padding-right:4%;
+    margin-top: 7%;
+}
+
+/* 푸터 */
+#footerIn{
+    position: relative;
+    top:5770px;
+    width:94%;
+    margin: 0 auto;
+    border-top:1px solid #000;
+}
+
+.interpark, .center, .service, .response{
+    position: relative;
+    top:30px;
+    width:96%;
+    font-size: 12px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.interpark1, .center1, .service1{
+    font-weight: 600;
+}
+
+.sns{
+    position: relative;
+    width:94%;
+    margin: 0 auto;
+    padding: 30px 0 30px 0;
+}
+
+.sns>ul{
+    display:flex;
+    justify-content: space-between;
+}
+
+.sns>ul>li:nth-child(1), .sns>ul>li:nth-child(2), .sns>ul>li:nth-child(3), .sns>ul>li:nth-child(4), .sns>ul>li:nth-child(5){
+    width:23px;
+    height:23px;
+}
+
+.sns>ul>li:nth-child(2){
+    width:24px;
+}
+
+.sns>ul>li:nth-child(4){
+    width:32px;
+}
+
+.sns>ul>li:nth-child(5){
+    width:16px;
+}
+
+@media all and (min-width:768px){
+    #poster{
+        top:0;
+        left:0;
+        right:6%;
+        width:523px;
+        height:629px;
+        border-right:1px solid #000;
+        border-top:none;
+        background: #fff;
+    }
+
+    .title, #poster h3{
+        position: absolute;
+        top:150px;
+        font-size: 48px;
+    }
+
+    #poster h3{
+        top:358px;
+        font-size: 16px;
+        font-weight: normal;
+    }
+
+    #poster img{
+        top:208px;
+        left:185px;
+        width:35px;
+        height:40px;
+    }
+ 
+    .poster_sh{
+        top:0;
+        right:3%;
+        width:516px;
+        height:650px;
+        z-index: -99;
+    }
+
+    .p1, .p2{
+        position: relative;
+        top:520px;
+        left:5%;
+        width:352px;
+        display:block;
+        display:flex;
+        font-size: 14px;
+        justify-content: space-between;
+        padding-bottom: 10px;
+    }
+
+    .p2{
+        width:295px;
+    }
+
+    .p3{
+        display:none;
+    }
+}
+
+@media all and (min-width:1200px){
+    
+}

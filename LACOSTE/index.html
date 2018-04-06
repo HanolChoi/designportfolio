@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    
+    <script>
+        $(document).ready(function(){
+          $('.slider').bxSlider();
+        });
+      </script>
+
+    <title>라코스테 디지털 플래그십</title>
+    <style>
+    #family_site{
+        position:absolute;
+        top:100px;
+        right:490px;
+        width:165px;
+        height:34px;
+        background:#fff;
+    }
+
+    #family_site li:hover .depth2{
+        display:block;
+    }
+
+    #family_site li:hover .OG:before{
+        content:"▼";
+        right:9px;
+        display:block;
+        color:#666;
+    }
+    
+    .OG{
+        position:relative;
+        display:block;
+        width:100%;
+        height:34px;
+        border-bottom:1px solid #ddd;
+        font-size:14px;
+        line-height: 34px;
+        text-indent: 20px;
+        color:#999;
+        cursor: pointer;
+    }
+
+    .OG:before{
+        position:absolute;
+        right:9px;
+        content:"▲";
+        display:block;
+        color:#666;
+    }
+
+    .depth2{
+        display:none;
+        height:50px;
+        padding:10px;
+        background:#fff;
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
+
+    .depth2 a{
+        display:block;
+        font-size:14px;
+        color:#999;
+        text-indent: 10px;
+        padding:2px 0;
+    }
+    </style>
+</head>
+<body>
+    <div id="wrapper">
+
+        <header>
+            <div id="headerIn">
+                <div id="top">
+                    <div id="topIn">
+                        <hi class="logo"><a href="index.html"><img src="images/logo.png" alt="로고"></a></hi>
+                    
+                        <nav id="utill">
+                            <ul>
+                                <li>
+                                    <div class="menu1">
+                                    <a href="#">
+                                        <img src="images/icon1.jpg" alt="로그인">
+                                        <p>로그인</p>
+                                    </a>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <div class="menu2">
+                                    <a href="#">
+                                        <img src="images/icon2.jpg" alt="회원가입">
+                                        <p>회원가입</p>
+                                    </a>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <div class="menu3">
+                                    <a href="#">
+                                        <img src="images/icon3.jpg" alt="쇼핑카트">
+                                        <p>쇼핑카트</p>
+                                    </a>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <div class="menu4">
+                                    <a href="#">
+                                        <img src="images/icon4.jpg" alt="매장찾기">
+                                        <p>매장찾기</p>
+                                    </a>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <div class="menu5">
+                                    <a href="#">
+                                        <img src="images/icon5.jpg" alt="고객센터">
+                                        <p>고객센터</p>
+                                    </a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </nav>
+
+                        <div class="search">
+                            <input type="text" name="search" id="search" placeholder="검색하기">
+                        </div>
+
+                    </div>
+                </div>
+                
+                <div id="bottom">
+                    <div id="bottomIn">
+                        <nav id="gnb">
+                            <ul>
+                                <li><a href="#">WHAT'S NEW</a></li>
+                                <li><a href="#">MEN</a></li>
+                                <li><a href="#">WOMEN</a></li>
+                                <li><a href="#">KIDS</a></li>
+                                <li><a href="#">FRENCH SPORTING SPIRIT</a></li>
+                                <li><a href="#">ONLINE ONLY</a></li>
+                                <li><a href="#">LACOSTE SINCE 1933</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+
+            </div> <!-- headerIn -->
+        </header>
+
+        <main>
+            <div id="mainIn">
+                <div id="background">
+                    <!-- <div id="banner"> -->
+                        
+                        <div class="mainbanner">
+                            <img src="images/banner.png" alt="배너">
+                            <p1>SPRING 2018 NEW POLOS</p1>
+
+                            <p2>이번 SPRING / SUMMER 시즌의 폴로셔츠를 확인해보세요!</p2>
+
+                            <nav id="polo_button">
+                                <ul>
+                                    <li>
+                                        <a href="#"><p>MEN'S POLOS</p></a>
+                                    </li>
+
+                                    <li>
+                                        <a href="#"><p>WOMEN'S POLOS</p></a>
+                                    </li>
+
+                                    <li>
+                                        <a href="#"><p>KID'S POLOS</p></a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+
+                        <div id="maintop">
+                            <div id="recommend">
+                                <img src="images/recommend.png" alt="크리스마스 추천">
+
+                                <p1>라코스테가 추천하는</p1><br>
+
+                                <p2>CHRISTMAS<br>GIFT</p2>
+
+                                <nav id="recommend_button">
+                                    <ul>
+                                        <li><a href="#">MEN</a></li>
+
+                                        <li><a href="#">WOMEN</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+
+                            <div id="event">
+                                <a href="#"><img src="images/event.png" alt="이벤트"></a>
+                                
+                                <p1>LACOSTE FRENCH<br>SPORTING EVENT</p1>
+                                
+                                <p2>컬렉션 구매 고객께 드리는 100% 당첨의 행운!<br>"최대 200만원" 상의 푸짐한 경품을 만나보세요.</p2>
+                            </div>
+
+                            <div id="newsletter">
+                                <p1>NEWS LETTER</p1>
+                                
+                                <p2>라코스테 뉴스레터를 받아보세요.<br>회원가입 시 더 많은 멤버십 혜택이 기다립니다.</p2>
+
+                                <a href="#">등록하기</a>
+                            </div>
+
+                            <div id="newarrival">
+                                <p>NEW ARRIVAL</p>
+
+                                <div class="w_cashmere">
+                                    <a href="#">
+                                        <img src="images/w_cashmere.png" alt="여성 캐시미어">
+
+                                        <div class="w_cashmere_text1">
+                                            여성 캐시미어 라운드 풀오버
+                                        </div>
+
+                                        <div class="w_cashmere_text2">
+                                            368,000원
+                                        </div>
+                                    </a>
+
+                                    <div class="left_1">
+                                        <a href="#"><img src="images/left_white.png" alt="흰색 왼쪽 화살표"></a>
+                                    </div>
+                                </div>
+
+                                <div class="lt_spirit">
+                                    <a href="#">
+                                        <img src="images/lt_spirit.png" alt="스피릿 운동화">
+
+                                        <div class="lt_spirit_text1">
+                                            LT SPIRIT ELITE 317 2
+                                        </div>
+
+                                        <div class="lt_spirit_text2">
+                                            159,000원
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="m_tennis_zipup">
+                                    <a href="#">
+                                        <img src="images/m_tennis_zipup.png" alt="남성 테니스 집업">
+
+                                        <div class="m_tennis_zipup_text1">
+                                            남성 스포츠[노박 조코비치]<br>테니스 플리스 집업
+                                        </div>
+
+                                        <div class="m_tennis_zipup_text2">
+                                            178,000원
+                                        </div>
+                                    </a>
+
+                                    <div class="right_1">
+                                        <a href="#"><img src="images/right_white.png" alt="흰색 오른쪽 화살표"></a>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div id="lacostelive">
+                                <p>LACOSTE LIVE</p>
+        
+                                <div class="w_standcollar">
+                                    <a href="#">
+                                        <img src="images/w_standcollar.png" alt="여성 스탠드칼라">
+        
+                                        <div class="w_standcollar_text1">
+                                            여성 스탠드칼라 스트라이프<br>니트 원피스
+                                        </div>
+        
+                                        <div class="w_standcollar_text2">
+                                            198,000원
+                                        </div>
+                                    </a>
+
+                                    <div class="left_gray1">
+                                        <a href="#"><img src="images/left_gray.png" alt="회색 왼쪽 화살표"></a>
+                                    </div>
+                                </div>
+        
+                                <div class="m_oxfordshirt">
+                                    <a href="#">
+                                        <img src="images/m_oxfordshirt.png" alt="남성 옥스포드 셔츠">
+        
+                                        <div class="m_oxfordshirt_text1">
+                                            남성 옥스포드 셔츠
+                                        </div>
+        
+                                        <div class="m_oxfordshirt_text2">
+                                            138,000원
+                                        </div>
+                                    </a>
+                                </div>
+        
+                                <div class="m_crossbag">
+                                    <a href="#">
+                                        <img src="images/m_crossbag.png" alt="남성 라이브 크로스백">
+        
+                                        <div class="m_crossbag_text1">
+                                            남성 라이브 크로스백
+                                        </div>
+        
+                                        <div class="m_crossbag_text2">
+                                            149,000원
+                                        </div>
+                                    </a>
+
+                                    <div class="right_gray1">
+                                        <a href="#"><img src="images/right_gray.png" alt="회색 오른쪽 화살표"></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div id="lacostesport">
+                                <p>LACOSTE SPORT</p>
+            
+                                <div class="graduate_spw">
+                                    <a href="#">
+                                        <img src="images/graduate_spw.png" alt="흰색 운동화">
+            
+                                        <div class="graduate_spw_text1">
+                                            GRADUATE SPW
+                                        </div>
+            
+                                        <div class="graduate_spw_text2">
+                                            135,000원
+                                        </div>
+                                    </a>
+
+                                    <div class="left_gray2">
+                                        <a href="#"><img src="images/left_gray.png" alt="회색 오른쪽 화살표"></a>
+                                    </div>
+                                </div>
+            
+                                <div class="m_tennis_shorts">
+                                    <a href="#">
+                                        <img src="images/m_tennis_shorts.png" alt="남성 테니스 쇼츠">
+            
+                                        <div class="m_tennis_shorts_text1">
+                                            남성 스포츠<br>테니스 기능성 쇼츠
+                                        </div>
+            
+                                        <div class="m_tennis_shorts_text2">
+                                            88,000원
+                                        </div>
+                                    </a>
+                                </div>
+            
+                                <div class="w_pique_zipup">
+                                    <a href="#">
+                                        <img src="images/w_pique_zipup.png" alt="여성 기능성 피케 집업">
+            
+                                        <div class="w_pique_zipup_text1">
+                                            여성 스포츠<br>[프렌치 스포팅 스피릿]<br>기능성 피케 집업
+                                        </div>
+            
+                                        <div class="w_pique_zipup_text2">
+                                            178,000원
+                                        </div>
+                                    </a>
+
+                                    <div class="right_gray2">
+                                        <a href="#"><img src="images/right_gray.png" alt="회색 오른쪽 화살표"></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div id="novak">
+                                <a href="#">
+                                    <img src="images/novak.png" alt="노박">
+                                </a>
+
+                                <p1>NEW LEGEND,<br>NOVAK</p1>
+
+                                <p2>노박 친필 사인 경품 이벤트</p2>
+                            </div>
+
+                            <div id="collabo">
+                                <a href="#">
+                                    <img src="images/lacosteXm&m.png" alt="콜라보레이션">
+                                </a>
+
+                                <p1>LACOSTE<br>X<br>M/M (Paris)</p1>
+
+                                <p2>새로운 콜라보레이션</p2>
+                            </div>
+
+                            <div id="sns">
+                                <p1>@Lacoste Korea</p1>
+                                
+                                <p2>라코스테코리아 공식 SNS 페이스북의 친구가 되어주세요.</p2>
+                                
+                                <div class="facebook_logo">
+                                    <img src="images/facebook_logo.png" alt="페이스북 아이콘">
+                                </div>
+                                
+                                <div class="facebook_bg">
+                                    <img src="images/facebook_bg.png" alt="배경사진">
+                                    
+                                    <div class="lacoste_logo">
+                                        <a href="#"><img src="images/lacoste_logo.png" alt="라코스테 로고"></a>
+                                    </div>
+                                    
+                                    <p1>라코스테코리아</p1>
+
+                                    <p2>14,776,902 개 좋아요</p2>
+                                    
+                                    <div class="sign_in">
+                                        <a href="#"><img src="images/sign_in.png" alt="가입하기"></a>
+                                    </div>
+
+                                    <div class="like">
+                                        <a href="#"><img src="images/like.png" alt="페이지 좋아요"></a>
+                                    </div>
+                                </div>
+                                
+                                <div class="scroll">
+                                    <div class="f_like">
+                                        <p>친구 중 제일 먼저 좋아요를 클릭하세요</p>
+                                        <a href="#"><img src="images/friends.png" alt="친구"></a>
+                                    </div>
+
+                                    <div class="post">
+                                        <a href="#"><img src="images/lacoste_logo.png" alt="라코스테 로고"></a>
+                                        
+                                        <p class="lacoste">Lacoste</p>
+                                       
+                                        <p class="time">23시간 전 ·</p>
+
+                                        <div class="facebook_mini_logo">
+                                            <img src="images/facebook_mini_logo.png" alt="페이스북 미니 로고">
+                                        </div>
+
+                                        <div class="earth"><img src="images/earth.png" alt="지구 모양"></div>
+
+                                        <p class="holiday">홀리데이 & 연말 시즌이 어느덧 코앞으로 다가왔습니다.
+                                            <br>페친여러분 모두 흥겨운 연말 분위기에 녹아들 준비 되셨<br>나요?
+                                            <br>라코스테의 홀리데이 기프트로 더욱 특별한 연말 선물을<br>준비해보세요!
+                                            <br>For him</p>
+
+                                        <div class="play">
+                                            <a href="#"><img src="images/play.png" alt="재생"></a>
+                                        </div>
+
+                                        <a href="#"><p class="more">http://laco.st/sCGFEjuY... 더보기</p></a>
+
+                                        <div class="l_holiday">
+                                            <img src="images/lacoste_holiday.png" alt="라코스테 홀리데이">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div> <!-- mainIn -->
+        </main>
+
+        <footer>
+            <div id="footerIn">
+                
+                <!-- 고객 서비스 -->
+                <div class="customer_service">
+                    <p class="customer">CUSTOMER SERVICE</p>
+                        <ul>
+                            <li><a href="#">Size Guide</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">개인정보처리방침</a></li>
+                            <li><a href="#">이용약관</a></li>
+                            <li><a href="#">Site Map</a></li>
+                        </ul>
+                </div>
+
+                <!-- 카테고리 -->
+                <div class="category">
+                    <p class="categories">CATEGORIES</p>      
+                        <ul>
+                            <li><a href="#">Men's Collection</a></li>
+                            <li><a href="#">Women's Collection</a></li>
+                            <li><a href="#">Kid's Collection</a></li>
+                            <li><a href="#">Polo Shop</a></li>
+                            <li><a href="#">Shoe Shop</a></li>
+                            <li><a href="#">Lacoste Live</a></li>
+                            <li><a href="#">Lacoste Sport</a></li>
+                        </ul>
+                </div>
+
+                <!-- 주소 -->
+                <div class="info">
+                    <address>(주)동일드방레 | 대표이사 배재현 | 서울특별시강남구대치동944-1 정현빌딩</address>
+                    <span class="license">사업자등록번호120-86-05491 </span>
+                    <span class="check">사업자정보확인 ▶ | 통신판매업신고번호제 2011-서울강남-01501호135-846</span>
+                    <span class="inform">개인정보관리책임자: OLIVIER DUPUY</span>
+                    <span class="phone">CUSTOMER SERVICE TELL 1588-9619. ESHOP@DIDEVANLAY.COM</span>
+                </div>
+
+                <!-- 신한은행 구매안전서비스 -->
+                <div class="sinhan">
+                    <p>신한은행 구매안전서비스(채무지급보증)<br>
+                        고객님은 안전거래를 위해 현금등으로 결제시 결제금액 전액에 대해 저희 쇼핑몰에서 가입한<br> 
+                        신한은행의 구매안전서비스(채무지급보증)를 이용하실 수 있습니다. [서비스가입사실 확인]</p>
+                </div>
+
+                <!-- SNS -->
+                <div class="fsns">
+                    <ul>
+                        <li><a href="#"><img src="images/instagram.png" alt="인스타그램"></a></li>
+                        <li><a href="#"><img src="images/facebook.png" alt="페이스북"></a></li>
+                        <li><a href="#"><img src="images/twitter.png" alt="트위터"></a></li>
+                        <li><a href="#"><img src="images/t.png" alt="티"></a></li>
+                        <li><a href="#"><img src="images/youtube.png" alt="유튜브"></a></li>
+                        <li><a href="#"><img src="images/pinterest.png" alt="핀터레스트"></a></li>
+                        <li><a href="#"><img src="images/kakaotalk.png" alt="카카오톡"></a></li>
+                        <li><a href="#"><img src="images/google.png" alt="구글"></a></li>
+                        <li><a href="#"><img src="images/line.png" alt="라인"></a></li>
+                    </ul>
+                </div>
+
+                <!-- 패밀리 사이트 -->
+                <nav id="family_site">
+                    <ul>
+                        <li><span class="OG">Family Site</span>
+                            <ul class="depth2">
+                                <li><a href="#">Family Site</a></li>
+                                <li><a href="#">LACOSTE L!VE</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </footer>
+
+    </div>
+    
+</body>
+</html>

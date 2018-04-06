@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-1.12.1.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <title>인터파크 도서</title>
+</head>
+<body>
+    <div id="wrap">
+        <header>
+            <div id="poster">
+                <span class="title">INTERPARK<br>BOOK</span>
+                <a href="index.html"><img src="images/logo.png" alt="로고"></a>
+                <h3>싸니까 믿으니까 인터파크니까</h3>
+                <ul class="p1">
+                    <li><a href="#">베스트셀러</a></li>
+                    <li><a href="#">미디어 추천</a></li>
+                    <li><a href="#">신간</a></li>
+                    <li><a href="#">쎈딜&이벤트</a></li>
+                    <li><a href="#">마이페이지</a></li>
+                </ul>
+                <ul class="p2">
+                    <li><a href="#">국내</a></li>
+                    <li><a href="#">외국</a></li>
+                    <li><a href="#">eBook</a></li>
+                    <li><a href="#">중고</a></li>
+                    <li><a href="#">음반</a></li>
+                    <li><a href="#">DVD</a></li>
+                    <li><a href="#">북DB</a></li>
+                </ul>
+                <ul class="p3">
+                    <li><a href="#">메뉴 보기</a></li>
+                    <li><a href="#">로그인</a></li>
+                    <li><a href="#">회원가입</a></li>
+                </ul>
+            </div>
+            <div class="poster_sh"></div>
+        </header>
+
+        <main>
+            <div id="i_recommend">
+                <h4 class="i_title">인터파크 추천</h4>
+                <div class="i_box">
+                    <img src="images/heartclip.png" alt="">
+                    <p class="i_title2">한 그릇 뚝딱 유아식</p>
+                    <p class="cont1">안상진 가정과생활 MD 추천</p>
+                    <p class="cont2">베스트셀러 ‘한 그릇 뚝딱 이유식’에 이은 닥터오의 유아식 영양만점 레시피. 10가지 주제로 정리한 영양과 
+                        편식없는 식단. 매번 오늘은 뭘 먹이지? 고민하는 엄마들에게  특급 가이드가 되어줄 것이다.</p>
+                    <div class="i_book">
+                        <a href="#"><img src="images/kidsfood.png" alt="한 그릇 뚝딱 유아식"></a>
+                    </div>
+                </div>
+                <div class="i_box2">
+                    <img src="images/heartclip.png" alt="">
+                    <p class="i_title2">말이 칼이 될 때</p>
+                    <p class="cont1">공현숙 사회과학 MD 추천</p>
+                    <p class="cont2">진보법학자 홍성수 교수가 혐오사회를 조망하고 적대적이고 폭력적인 혐오의 
+                                    문화를 변화시킬 대화의 가능성을 모색, 혐오사회를 넘어서기 위한 구체적인 
+                                    방법 또한 적극적으로 고민해볼 수 있을 것이다.</p>
+                    <div class="i_book">
+                        <a href="#"><img src="images/word.png" alt="말이 칼이 될 때"></a>
+                    </div>
+                </div>
+            </div>
+
+            <div id="categories">
+                <h4 class="c_title">분야별 추천</h4>
+                <div class="literature">
+                    <ul>
+                        <li>문학 인문</li>
+                        <li><a href="#">더보기</a></li>
+                        <li><a href="#"><img src="images/arrow_right.png" alt=">"></a></li>
+                    </ul>
+                </div>
+
+                <div class="l_c">
+                    <ul class="l_index">
+                        <li>
+                            <ul class="three_kingdoms">
+                                <li><p>지도로 읽는다 삼국지 100년 도감</p></li>
+                                <li><p class="cont">15,750원 + 870P</p></li>
+                                <li class="img"><a href="#"><img src="images/three_kingdoms.png" alt="지도로 읽는다 삼국지 100년 도감"></a></li>      
+                                <div class="under1"></div>
+                            </ul>
+
+                            <ul class="guilty">
+                                <li><p>죄의식과 부끄러움</p></li>
+                                <li><p class="cont">28,800원 + 1,600P</p></li>
+                                <li><a href="#"><img src="images/guilty.png" alt="죄의식과 부끄러움"></a></li>
+                                <div class="under2"></div>
+                            </ul>
+
+                            <ul class="japan">
+                                <li><p>그럼에도 일본은 전쟁을 선택했다</p></li>
+                                <li><p class="cont">16,200원 + 900P</p></li>
+                                <li><a href="#"><img src="images/japan.png" alt="그럼에도 일본은 전쟁을 선택했다"></a></li>
+                                <div class="under3"></div>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div id="categories2">
+                <div class="children">
+                    <ul>
+                        <li>유아 / 아동</li>
+                        <li><a href="#">더보기</a></li>
+                        <li><a href="#"><img src="images/arrow_right.png" alt=">"></a></li>
+                    </ul>
+                </div>
+
+                <div class="c_c">
+                    <ul class="c_index">
+                        <li>
+                            <ul class="hide">
+                                <li><p>똑똑한 빅북 1 숨은그림찾기</p></li>
+                                <li><p class="cont">15,300원 + 850P</p></li>
+                                <li class="img"><a href="#"><img src="images/hide.png" alt="똑똑한 빅북 1 숨은그림찾기"></a></li>      
+                                <div class="under4"></div>
+                            </ul>
+
+                            <ul class="why">
+                                <li><p>Why? 첨단소재</p></li>
+                                <li><p class="cont">9,900원 + 550P</p></li>
+                                <li><a href="#"><img src="images/Why.png" alt="why? 첨단소재"></a></li>
+                                <div class="under5"></div>
+                            </ul>
+
+                            <ul class="live">
+                                <li><p>LIVE 과학 첨단 과학 1 - 4차 산업 혁명</p></li>
+                                <li><p class="cont">10,800원 + 600P</p></li>
+                                <li><a href="#"><img src="images/live.png" alt="LIVE 과학 첨단 과학 1 - 4차 산업 혁명"></a></li>
+                                <div class="under6"></div>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div id="categories3">
+                <div class="economy">
+                    <ul>
+                        <li>경제 / 교양 / 실용</li>
+                        <li><a href="#">더보기</a></li>
+                        <li><a href="#"><img src="images/arrow_right.png" alt=">"></a></li>
+                    </ul>
+                </div>
+
+                <div class="e_c">
+                    <ul class="e_index">
+                        <li>
+                            <ul class="avoid">
+                                <li><p>불행 피하기 기술</p></li>
+                                <li><p class="cont">14,220원 + 790P</p></li>
+                                <li class="img"><a href="#"><img src="images/avoid.png" alt="불행 피하기 기술"></a></li>      
+                                <div class="under7"></div>
+                            </ul>
+
+                            <ul class="onegreenday">
+                                <li><p>One Green Day</p></li>
+                                <li><p class="cont">11,250원 + 620P</p></li>
+                                <li><a href="#"><img src="images/one_green_day.png" alt="One Green Day"></a></li>
+                                <div class="under8"></div>
+                            </ul>
+
+                            <ul class="business_remodeling">
+                                <li><p>비즈니스 리모델링</p></li>
+                                <li><p class="cont">10,800원 + 600P</p></li>
+                                <li><a href="#"><img src="images/business_remodeling.png" alt="비즈니스 리모델링"></a></li>
+                                <div class="under9"></div>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div id="categories4">
+                <div class="language">
+                    <ul>
+                        <li>학습 / 어학</li>
+                        <li><a href="#">더보기</a></li>
+                        <li><a href="#"><img src="images/arrow_right.png" alt=">"></a></li>
+                    </ul>
+                </div>
+
+                <div class="la_c">
+                    <ul class="la_index">
+                        <li>
+                            <ul class="english_word">
+                                <li><p>강성태 영단어 어원편</p></li>
+                                <li><p class="cont">14,400원 + 800P</p></li>
+                                <li class="img"><a href="#"><img src="images/english_word.png" alt="강성태 영단어 어원편"></a></li>      
+                                <div class="under10"></div>
+                            </ul>
+
+                            <ul class="highschoolmath">
+                                <li><p>개념원리 고등수학 세트 (상/하 2018)</p></li>
+                                <li><p class="cont">28,800원 + 1,600P</p></li>
+                                <li><a href="#"><img src="images/highschoolmath.png" alt="개념원리 고등수학 세트 (상/하 2018)"></a></li>
+                                <div class="under11"></div>
+                            </ul>
+
+                            <ul class="ssen">
+                                <li><p>신사고 쎈 고등 수학 세트<br>+ 특별 부록 (상/하 2018)</p></li>
+                                <li><p class="cont">25,200원 + 1,400P</p></li>
+                                <li><a href="#"><img src="images/ssen.png" alt="비즈니스 리모델링"></a></li>
+                                <div class="under12"></div>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div id="categories5">
+                <div class="overseas">
+                    <ul>
+                        <li>외국도서</li>
+                        <li><a href="#">더보기</a></li>
+                        <li><a href="#"><img src="images/arrow_right.png" alt=">"></a></li>
+                    </ul>
+                </div>
+
+                <div class="o_c">
+                    <ul class="o_index">
+                        <li>
+                            <ul class="hillbilly">
+                                <li><p>hillbilly Elegy (Paperback)</p></li>
+                                <li><p class="cont">11,780원 + 590P</p></li>
+                                <li class="img"><a href="#"><img src="images/hillbilly.png" alt="hillbilly Elegy (Paperback)"></a></li>      
+                                <div class="under13"></div>
+                            </ul>
+
+                            <ul class="homodeus">
+                                <li><p>Homo Deus (Paperback)</p></li>
+                                <li><p class="cont">10,500원 + 500P</p></li>
+                                <li><a href="#"><img src="images/homodeus.png" alt="Homo Deus (Paperback)"></a></li>
+                                <div class="under14"></div>
+                            </ul>
+
+                            <ul class="revenge">
+                                <li><p>The Revenge of Analog<br>(Paperback / Reprint ed.)</p></li>
+                                <li><p class="cont">16,500원</p></li>
+                                <li><a href="#"><img src="images/revenge.png" alt="revenge"></a></li>
+                                <div class="under15"></div>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div id="categories6">
+                <div class="ebook">
+                    <ul>
+                        <li>eBook</li>
+                        <li><a href="#">더보기</a></li>
+                        <li><a href="#"><img src="images/arrow_right.png" alt=">"></a></li>
+                    </ul>
+                </div>
+
+                <div class="e_c">
+                    <ul class="e_index">
+                        <li>
+                            <ul class="nineteen">
+                                <li><p class="blue">[eBook]</p>[10년 소장] 90일 완성 돈 버는 평생 습관</li>
+                                <li><p class="cont">4,080원</p></li>
+                                <li class="img"><a href="#"><img src="images/90days.png" alt="90일 완성 돈 버는 평생 습관"></a></li>      
+                                <div class="under16"></div>
+                            </ul>
+
+                            <ul class="finish">
+                                <li><p class="blue">[eBook]</p><p>[10년 소장] 피니시</p></li>
+                                <li><p class="cont">4,900원</p></li>
+                                <li><a href="#"><img src="images/finish.png" alt="피니시"></a></li>
+                                <div class="under17"></div>
+                            </ul>
+
+                            <ul class="sympathy">
+                                <li><p class="blue">[eBook]</p><p>[10년 소장] 공감하면 사람은 90%가 바뀐다</p></li>
+                                <li><p class="cont">4,900원</p></li>
+                                <li><a href="#"><img src="images/sympathy.png" alt="공감하면 사람은 90%가 바뀐다"></a></li>
+                                <div class="under18"></div>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div id="categories7">
+                <div class="cd">
+                    <ul>
+                        <li>CD / DVD</li>
+                        <li><a href="#">더보기</a></li>
+                        <li><a href="#"><img src="images/arrow_right.png" alt=">"></a></li>
+                    </ul>
+                </div>
+
+                <div class="d_c">
+                    <ul class="d_index">
+                        <li>
+                            <ul class="infinite">
+                                <li><p>인피니트(Infinite) 3집 - Top Seed</p></li>
+                                <li><p class="cont">20,500원 + 210P</p></li>
+                                <li class="img"><a href="#"><img src="images/infinite.png" alt="infinite"></a></li>      
+                                <div class="under19"></div>
+                            </ul>
+
+                            <ul class="jbj">
+                                <li><p>JBJ - True Colors Volume Ⅱ - Ⅰ<br>[2nd Mini Album]:(1CD)</p></li>
+                                <li><p class="cont">14,900원 + 150P</p></li>
+                                <li><a href="#"><img src="images/jbj.png" alt="JBJ"></a></li>
+                                <div class="under20"></div>
+                            </ul>
+
+                            <ul class="bts">
+                                <li><p>방탄소년단(BTS) - BTS 2018 벽걸이캘린더</p></li>
+                                <li><p class="cont">20,000원 + 200P</p></li>
+                                <li><a href="#"><img src="images/bts.png" alt="BTS"></a></li>
+                                <div class="under21"></div>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div id="used">
+                <h4 class="i_title">HOT 중고도서</h4>
+                <div class="u_box">
+                    <div class="sale"><p>21% SALE</p></div>
+                    <div class="u_book">
+                        <a href="#"><img src="images/speak.png" alt="언어의 온도"></a>
+                    </div>
+                    <p class="u_title">언어의 온도 : 말과 글</p>
+                    <div class="u_cont">
+                        <span class="u1">이기주 | 말글터 |&nbsp;</span>
+                        <span class="u2">13,800원</span>
+                        <span class="u3">&nbsp;10,900원</span>
+                    </div>
+                </div>
+            </div>
+
+            <div id="review">
+                <h4 class="i_title">추천 리뷰</h4>
+                <div class="r_box">
+                    <span class="r_title">나는 스쿨버스 운전사입니다</span>
+                    <span class="r_cont">작성자 쫑이파</span>
+                    <span class="star">★★★★★ 10</span>
+                    <a href="#"><img src="images/bus.png" alt="나는 스쿨버스 운전사입니다"></a>
+                </div>
+            </div>
+
+            <div id="issue">
+                <h4 class="i_title">이슈 & 스토리</h4>
+                <div class="issue_conts">
+                    <div class="newyear">
+                            <a href="#"><img src="images/newyear.png" alt=""><span>이번 새해에도 '영어 공부'를 목표로 잡으셨나요?</span></a>
+                    </div>
+                    
+                    <div class="starwars">
+                        <a href="#"><img src="images/starwars.png" alt=""><span>[언론이 주목한 책] '스타워즈'와 '헌법'의 평행이론</span></a>
+                    </div>
+
+                    <div class="stock">
+                        <a href="#"><img src="images/stock.png" alt=""><span>[신간 산책] '왕초보' 허영만의 주식 투자, 3천만 원의 행방은?</span></a>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <div id="footerIn">
+                <div class="interpark">
+                    <p class="interpark1">인터파크</p>
+                    <p class="interpark2">서울특별시 강남구 삼성로 512 삼성동빌딩 10층(삼성동)<br>
+                                    대표이사 이상규<br>
+                                    사업자등록번호 214-87-98889<br>
+                                    통신판매업신고 강남 02549호</p>
+                </div>
+
+                <div class="center">
+                    <p class="center1">고객센터</p>
+                    <p class="center2">전화 1577-2555<br>
+                                        팩스 02-6924-9050<br>
+                                        개인정보보유기간 : 회원탈퇴시까지<br>
+                                        개인정보보호책임자 : 윤혜정 cpo@interpark.com</p>
+                </div>
+
+                <div class="service">
+                    <p class="service1">구매안전 서비스</p>
+                    <p class="service2">고객님은 안전거래를 위해 현금으로 5만원 이상 결제시 구<br>
+                                        매자가 보호를 받을 수 있는 구매안전 서비스를(쇼핑몰보증<br>
+                                        보험) 이용하실수 있습니다.</p>
+                </div>
+
+                <div class="response">인터파크도서에 등록된 헌책방 오픈마켓 상품은 그 내용과<br>
+                              책임이 모두 판매자에게 있으며, 인터파크도서는 해당상품<br>
+                              과 내용에 대해 책임지지 않습니다.<br>
+                              Copyright ⓒ INTERPARK Corporation All rights reserved.
+                </div>
+
+                <div class="sns">
+                    <ul>
+                        <li><a href="#"><img src="images/facebook.png" alt="페이스북"></a></li>
+                        <li><a href="#"><img src="images/kakaotalk.png" alt="카카오톡"></a></li>
+                        <li><a href="#"><img src="images/instagram.png" alt="인스타그램"></a></li>
+                        <li><a href="#"><img src="images/twitter.png" alt="트위터"></a></li>
+                        <li><a href="#"><img src="images/google.png" alt="구글"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+<script>
+    $(".p1, .p2").hover(function(){
+        $(".poster_sh").animate({marginRight:20, marginTop:-20})},
+        function(){
+            $(".poster_sh").animate({marginRight:0, marginTop:0});
+    });
+
+    $(".three_kingdoms").hover(function(){
+        $(".under1").animate({marginRight:11, marginBottom:10})},
+        function(){
+            $(".under1").animate({marginRight:0, marginBottom:0});
+    });
+
+    $(".guilty").hover(function(){
+        $(".under2").animate({marginRight:11, marginBottom:10})},
+        function(){
+            $(".under2").animate({marginRight:0, marginBottom:0});
+    }); 
+
+    $(".japan").hover(function(){
+        $(".under3").animate({marginRight:11, marginBottom:10})},
+        function(){
+            $(".under3").animate({marginRight:0, marginBottom:0});
+    }); 
+
+    $(".hide").hover(function(){
+        $(".under4").animate({marginRight:11, marginBottom:10})},
+        function(){
+            $(".under4").animate({marginRight:0, marginBottom:0});
+    }); 
+
+    $(".why").hover(function(){
+        $(".under5").animate({marginRight:11, marginBottom:10})},
+        function(){
+            $(".under5").animate({marginRight:0, marginBottom:0});
+    }); 
+
+    $(".live").hover(function(){
+        $(".under6").animate({marginRight:11, marginBottom:10})},
+        function(){
+            $(".under6").animate({marginRight:0, marginBottom:0});
+    }); 
+
+    $(".avoid").hover(function(){
+        $(".under7").animate({marginRight:11, marginBottom:10})},
+        function(){
+            $(".under7").animate({marginRight:0, marginBottom:0});
+    }
+    ); 
+
+    $(".onegreenday").hover(function(){
+        $(".under8").animate({marginRight:11, marginBottom:10})},
+        function(){
+            $(".under8").animate({marginRight:0, marginBottom:0});
+    }); 
+
+    $(".business_remodeling").hover(function(){
+        $(".under9").animate({marginRight:11, marginBottom:10})},
+        function(){
+            $(".under9").animate({marginRight:0, marginBottom:0});
+    }); 
+
+    $(".english_word").hover(function(){
+        $(".under10").animate({marginRight:11, marginBottom:10})},
+        function(){
+            $(".under10").animate({marginRight:0, marginBottom:0});
+    }); 
+
+    $(".highschoolmath").hover(function(){
+        $(".under11").animate({marginRight:11, marginBottom:10})},
+        function(){
+            $(".under11").animate({marginRight:0, marginBottom:0});
+    }); 
+
+    $(".ssen").hover(function(){
+        $(".under12").animate({marginRight:11, marginBottom:10})},
+        function(){
+            $(".under12").animate({marginRight:0, marginBottom:0});
+    }); 
+
+    $(".hillbilly").hover(function(){
+        $(".under13").animate({marginRight:11, marginBottom:10})},
+        function(){
+            $(".under13").animate({marginRight:0, marginBottom:0});
+    }); 
+
+    $(".homodeus").hover(function(){
+        $(".under14").animate({marginRight:11, marginBottom:10})},
+        function(){
+            $(".under14").animate({marginRight:0, marginBottom:0});
+    }); 
+
+    $(".revenge").hover(function(){
+        $(".under15").animate({marginRight:11, marginBottom:10})},
+        function(){
+            $(".under15").animate({marginRight:0, marginBottom:0});
+    }); 
+
+    $(".nineteen").hover(function(){
+        $(".under16").animate({marginRight:11, marginBottom:10})},
+        function(){
+            $(".under16").animate({marginRight:0, marginBottom:0});
+    }); 
+
+    $(".finish").hover(function(){
+        $(".under17").animate({marginRight:11, marginBottom:10})},
+        function(){
+            $(".under17").animate({marginRight:0, marginBottom:0});
+    }); 
+
+    $(".sympathy").hover(function(){
+        $(".under18").animate({marginRight:11, marginBottom:10})},
+        function(){
+            $(".under18").animate({marginRight:0, marginBottom:0});
+    }); 
+
+    $(".infinite").hover(function(){
+        $(".under19").animate({marginRight:11, marginBottom:10})},
+        function(){
+            $(".under19").animate({marginRight:0, marginBottom:0});
+    }); 
+
+    $(".jbj").hover(function(){
+        $(".under20").animate({marginRight:11, marginBottom:10})},
+        function(){
+            $(".under20").animate({marginRight:0, marginBottom:0});
+    }); 
+
+    $(".bts").hover(function(){
+        $(".under21").animate({marginRight:11, marginBottom:10})},
+        function(){
+            $(".under21").animate({marginRight:0, marginBottom:0});
+    }); 
+</script>
+</html>
